@@ -1,0 +1,6 @@
+[workspace]
+resolver = "2"
+members = ["fluidity-ui", "fluidity-window"]
+
+[workspace.dependencies]
+wayland-client = "0.31.2"

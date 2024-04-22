@@ -1,0 +1,10 @@
+[package]
+name = "fluidity-window"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wayland-client = { workspace = true, optional = true }
+
+[features]
+wayland-windowing = ["wayland-client"]
